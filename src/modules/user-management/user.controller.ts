@@ -46,10 +46,7 @@ export class UserController{
     }
 
     @Delete(':id')
-    removeProduct(@Param('id') userId: string) {
-        this.UserService.deleteUser(userId);
-        return "Deleted";
+    deleteUser(@Param('id') userId: string) {
+        return this.UserService.deleteUser(userId);
     }
-  
-
 }
