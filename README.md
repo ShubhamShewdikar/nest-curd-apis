@@ -2,16 +2,16 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
 
-## Description
-A Simple CRUD API with NestJs, Postgres, Sequelize ORM.
+## Description 📖
+✨A Simple CRUD API with NestJs, Postgres, Sequelize ORM.✨
 
-## Installation
+## Installation 📥
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## Running the app 🏃
 
 ```bash
 # development
@@ -24,24 +24,24 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## API Swagger documentation
-Swagger api documentation is available at `localhost:3000/api/v1/specs`
+## API Swagger documentation 📝
+Swagger api documentation is available at `localhost:3000/api/v1/specs` 🚀
 
-## Project documentation
+## Project documentation 📚
 Generate project documentation using following command
 
 ```bash
 $ npx @compodoc/compodoc -p tsconfig.json -s
 ```
-Open your browser and navigate to `http://localhost:8080`
+Open your browser and navigate to `http://localhost:8080` 🚀
 
-## Notes
+## Notes 🗒️
 * Index file in constants folder is a single place to keep all string values to avoid misspelling
 * We can set global prefix for api using `app.setGlobalPrefix('api/v1');` in `main.ts`
 * Rename .env-sample to .env and add environment variables
 * Setting the `ConfigModule.forRoot({ isGlobal: true })` will make the .env properties available throughout the application.
 
-## Relative Links
+## Relative Links 🤝
 [NestJS](https://docs.nestjs.com/)
 [Sequelize](https://docs.nestjs.com/techniques/database#sequelize-integration)
 [freeCodeCamp](https://www.freecodecamp.org/news/build-web-apis-with-nestjs-beginners-guide/)
