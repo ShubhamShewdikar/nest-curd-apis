@@ -3,6 +3,8 @@
 .dist
 /node_modules
 .node_modules
+/documentation
+.documentation
 
 # Logs
 logs
