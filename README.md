@@ -25,7 +25,15 @@ $ npm run start:prod
 ```
 
 ## API Swagger documentation
-swagger api documentation is available at `localhost:3000/api/v1/specs`
+Swagger api documentation is available at `localhost:3000/api/v1/specs`
+
+## Project documentation
+Generate project documentation using following command
+
+```bash
+$ npx @compodoc/compodoc -p tsconfig.json -s
+```
+Open your browser and navigate to `http://localhost:8080`
 
 ## Notes
 * Index file in constants folder is a single place to keep all string values to avoid misspelling
