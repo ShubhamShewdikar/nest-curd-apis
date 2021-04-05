@@ -24,6 +24,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## API Swagger documentation
+swagger api documentation is available at `localhost:3000/api/v1/specs`
+
 ## Notes
 * Index file in constants folder is a single place to keep all string values to avoid misspelling
 * We can set global prefix for api using `app.setGlobalPrefix('api/v1');` in `main.ts`
