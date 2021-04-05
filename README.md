@@ -8,7 +8,6 @@ A Simple CRUD API with NestJs, Postgres, Sequelize ORM.
 ## Installation
 
 ```bash
-$ 
 $ npm install
 ```
 
